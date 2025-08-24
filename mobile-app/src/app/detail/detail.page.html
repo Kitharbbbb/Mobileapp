@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" color="#F10E00">
+         <ion-back-button color="dark" fill="clear"></ion-back-button>
+    </ion-button>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1 align="center">รายละเอียดสินค้า</h1>
+  <ion-content class="body" >
+    <ion-card  weight="100" height align="center">
+      <div align="center">
+        <h1 >{{name}}</h1>
+      <img [src]="pic" />
+       <td align="left"><p align="left">                  {{price}} B.</p> <p align="right" ></p>
+        <p align="left">{{detail[0]}}</p>
+        <p align="left">{{detail[1]}}</p>
+        <p align="left">{{detail[2]}}</p>
+        <p align="left">{{detail[3]}}</p>
+        <h1 align="right"><ion-icon name="cart-outline" (click)="gotoCart()" ></ion-icon></h1>
+    </div>
+    </ion-card>
+    </ion-content>

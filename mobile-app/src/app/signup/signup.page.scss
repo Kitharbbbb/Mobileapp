@@ -1,0 +1,81 @@
+ion-toolbar{
+  --background:#000000;
+  flex-direction: column;
+  align-items: center;
+}
+ion-content {
+  --background: #000000;
+  --ion-text-color:white;
+}
+.img{
+  border-radius:20px;
+}
+.flex-center1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+  padding-left: 14px;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form{
+  margin-top: 5px ;
+  padding-left: 20px;
+  padding-right:20px ;
+}
+
+.Usernameemail{
+  border-radius:10px;
+  border-style: solid;
+  border-color: white;
+  height: auto;
+  --background: #000;
+  margin-top: 5px;
+  box-shadow: 0px 10px 10px 1px rgba(255, 255, 255, 0.233);
+
+
+}
+.password1{
+  margin-top: 5px;
+  border-radius:10px;
+  height: auto;
+  --background: #000000;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0px 10px 10px 1px rgba(255, 255, 255, 0.233);
+}
+ion-button{
+ margin-top: 25px;
+ border-radius:10px;
+ height: 48px;
+ text-transform: initial;
+ box-shadow: 0px 10px 10px 1px rgba(255, 255, 255, 0.233);
+
+}
+
+
+.text1{
+  margin-top: 20px;
+}
+
+.text2{
+  margin-top: 20px;
+  display:flex;
+  align-items: center;
+  gap: auto;
+  text-align:left;
+  font-size: 12px;
+}
+.login{
+  --background:#F10E00;
+  border-radius: 10px ;
+}
+ion-grid{
+  --ion-text-color:#F10E00;
+}

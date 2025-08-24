@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" color="#F10E00">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-button>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+<ion-content [fullscreen]="true">
+  <h1 align="center" size="large">ชำระสินค้า</h1>
+  <div align="center">รายละเอียดสินค้า</div>
+  <div align="center">
+  <ion-card class="1" *ngFor="let document of inbucket">
+    <div class="1">
+      <th><img [src]="document.pic"  align="left" alt="WWorkS1" weight="80"height="80" /></th>
+      <h3>{{document.name}}</h3>
+    <th><h3>{{document.detail}}</h3>
+      <p> จำนวน : 1 ชุด</p><br>
+  </th><br>
+  <th><img src="assets/images/SCB.png"  weight="80"height="80"></th> <p>เลขบัญชี : 7043544896</p><br>
+  <p> ชื่อ : นายกิตติพล เจะอาลี </p><br>
+    </div>
+    <ion-card>
+    <ion-item color="whiteaw" >
+      <ion-label position="stacked" >ชื่อผู้โอน</ion-label>
+      <ion-input ></ion-input>
+    </ion-item></ion-card>
+    <ion-card>
+    <ion-item color="383737">
+      <ion-label position="stacked">วันที่โอน</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item color="383737">
+      <ion-label position="stacked">ราคาที่โอน</ion-label>
+      <ion-input>{{document.price}}</ion-input>
+    </ion-item>
+  </ion-card>
+</ion-card>
+</div>
+  <div align="center">
+  <ion-button (click)="gotoBuysucces()">ยืนยันการชำระ</ion-button>
+  </div>
+
+</ion-content>

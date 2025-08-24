@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ion-content {
+  --background: #000000;
+  --ion-text-color:white;
+}
+#flexbox {
+  display: grid;
+  height: 400px;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 20px 20px;
+  padding-left: 5%;
+  padding-top: 8% ;
+  padding-right: 5%;
+
+}
+ion-toolbar {
+  --background: #F10E00;
+  --ion-text-color:white;
+}

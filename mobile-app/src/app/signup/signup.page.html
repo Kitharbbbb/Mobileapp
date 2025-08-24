@@ -1,0 +1,57 @@
+<ion-content><ion-col size="1">
+  <div class="flex-center1">ลงทะเบียนบัญชีผู้ใช้
+
+  </div>
+    <div><h1 align="center"></h1>
+  </div>
+</ion-col>
+<div id="header">
+
+<form id="form">
+
+
+<div class="text1">
+<ion-label  color="light"  position="stacked">อีเมลล์</ion-label>
+</div>
+<ion-item class="Usernameemail">
+  <ion-input   name="UsernameorEmail" type="text" ngModel required></ion-input>
+ </ion-item>
+
+<div class="text1">
+  <ion-label  color="light"  position="stacked">ชื่อบัญชีผู้ใช้</ion-label>
+  </div>
+
+<ion-item class="Usernameemail">
+ <ion-input   name="UsernameorEmail" type="text" ngModel required></ion-input>
+</ion-item>
+
+<div class="text1">
+  <ion-label  color="light"  position="stacked">เบอร์โทร</ion-label>
+  </div>
+  <ion-item class="Usernameemail">
+    <ion-input   name="UsernameorEmail" type="text" ngModel required></ion-input>
+   </ion-item>
+
+
+   <div class="text1">
+    <ion-label  color="light"  position="stacked">รหัสผ่าน</ion-label>
+    </div>
+    <ion-item class="Usernameemail">
+      <ion-input   name="UsernameorEmail" type="text" ngModel required></ion-input>
+     </ion-item>
+
+<div class="text1">
+<ion-label color="light" position="stacked">ยืนยันรหัสผ่าน</ion-label>
+</div>
+
+<ion-item class="password1">
+  <ion-input name="password" ngModel required></ion-input>
+  </ion-item>
+<ion-button class="login"expand="block" type="sumbit"(click)="gotologin()" >ยืนยัน</ion-button>
+
+<div class="text2">
+
+</div>
+</form>
+</div>
+</ion-content>

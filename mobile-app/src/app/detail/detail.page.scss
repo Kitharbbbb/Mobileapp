@@ -1,0 +1,14 @@
+ion-content {
+  --background: #000000;
+  --ion-text-color:white;
+}
+p.body{
+  --ion-text-color:black;
+}
+ion-toolbar {
+  --background: #F10E00;
+}
+ion-title{
+    flex-direction: column;
+    align-items: center;
+}

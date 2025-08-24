@@ -1,0 +1,17 @@
+ion-content {
+    --background: #000000;
+    --ion-text-color:white;
+    gap: 20px 20px;
+  }
+  ion-toolbar {
+    --background: #F10E00;
+  }
+  div {
+    --background: D9D9D9;
+  }
+  ion-card{
+    border-style: solid;
+    border-color: white;
+    --background: #000000;
+    position:auto;
+  }

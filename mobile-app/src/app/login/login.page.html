@@ -1,0 +1,36 @@
+<ion-content><ion-col size="1">
+    <div class="flex-center1">
+      <img class="img" src="assets/images/mcar.jpg" weight="100" height="100">
+    </div>
+      <div><h1 align="center">mcar shop</h1>
+    </div>
+</ion-col>
+<div id="header">
+
+<form id="form">
+
+
+  <div class="text1">
+  <ion-label  color="light"  position="stacked">Username or Email</ion-label>
+  </div>
+
+  <ion-item class="Usernameemail">
+   <ion-input   name="UsernameorEmail" type="text" ngModel required></ion-input>
+</ion-item>
+
+
+<div class="text1">
+  <ion-label color="light" position="stacked">password</ion-label>
+</div>
+
+  <ion-item class="password1">
+    <ion-input name="password" ngModel required></ion-input>
+    </ion-item>
+  <ion-button class="login"expand="block" type="sumbit"(click)="gotoTab1()" >Login</ion-button>
+
+<div class="SF">
+  <th><p (click)="gotoSignup()">Sign up</p></th><th> <p (click)="gotoForgot()">Forgot Password</p></th>
+</div>
+</form>
+</div>
+</ion-content>

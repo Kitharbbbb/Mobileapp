@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" color="#F10E00">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-button>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1 align="center"size="large">ตะกร้า</h1>
+  <ion-header collapse="condense">
+  </ion-header>
+  <ion-header collapse="condense">
+  </ion-header>
+<ion-card class="1">
+  <div align="center">รายละเอียดสินค้า</div>
+  <div class="1">
+    <div>
+    <th><img src="assets/images/WWorkS1.jpg"  weight="80"height="80"></th>
+  <th><p align="left">                  {{price}} บาท</p> <p align="right" ></p>
+    <p align="left">{{detail[0]}}</p>
+    <p align="left">{{detail[1]}}</p>
+    <p align="left">{{detail[2]}}</p>
+    <p align="left">{{detail[3]}}</p>
+</th></div><div i class="el el-align-right">
+<td><p align="right">{{name}} :  {{price}} บาท</p>
+  <p align="right">ค่าจัดส่ง :  0 บาท</p>
+  <p align="right">ร่วมค่าจัดส่ง : {{price}} </p>
+</td></div>
+<div align="right"><ion-button (click)="gotoChat()"fill="outline" color="light">ติดต่อผู้ขาย</ion-button><br></div>
+<div align="right"><ion-button (click)="gotoPlian()"fill="outline" color="light">เปลี่ยนที่อยู่</ion-button><br></div>
+<div align="right"><ion-button (click)="gotoConfirmbuy()"name="confirmbuy" fill="outline" color="light">ยืนยันการสั่งซื้อ</ion-button><br></div>
+  </div>
+</ion-card>
+</ion-content>

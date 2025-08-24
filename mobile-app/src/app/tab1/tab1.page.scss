@@ -1,0 +1,27 @@
+ion-content {
+  --background: #000000;
+}
+p.body{
+  --ion-text-color:black;
+}
+ion-toolbar {
+  --background: #F10E00;
+}
+ion-title{
+    flex-direction: column;
+    align-items: center;
+}
+ion-card{
+  --background:rgb(255, 255, 255);
+}
+#text{
+  display: grid;
+  height: 30px;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 5px 40px;
+  padding-right: 5%;
+}
+p{
+  display: grid;
+  padding-left: 10px;
+}

@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-row>
+        <ion-col size="3">
+          <input type="text" name="serch" size="small">
+          <ion-icon  (click)="gotoCart()"fill="clear" color="dark" name="cart-sharp"></ion-icon>
+          <ion-icon  (click)="gotoChat()"fill="clear" color="dark"name="chatbubbles-sharp"></ion-icon>
+        </ion-col>
+      </ion-row>
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div align="center">รายละเอียดการสั่งซื้อ</div>
+<ion-card class="1">
+  <th><img src="assets/images/WWorkS1.jpg" alt="WWorkS1" weight="80"height="80">WWorkS1</th>
+  <th><p align="left"> </p> <p align="right" > 40,000 B.</p>
+    <p align="left"> ขอบ : 15</p>
+    <p align="left">ขนาด : 5 ก้าน </p>
+    <p align="left">กว้าง : 9.5 </p>
+    <p align="left">ออฟ :25</p>
+    <p align="left">สี : โครเมี่ยม</p>
+</th>
+<div align="right"><ion-button   (click)="gotoChat()"fill="outline" color="light">ติดต่อผู้ขาย</ion-button><br></div>
+<div align="right"><ion-button   (click)="gotoMyadd()"fill="outline" color="light">เปลี่ยนที่อยู่</ion-button><br></div>
+<div align="right"><ion-button   (click)="gotoCen()"fill="outline" color="light">ยกเลิกการสั่งซื้อ</ion-button><br></div>
+
+</ion-card>
+<ion-card class="1">
+  <div class="1">
+    <th><img src="assets/images/RB26dett.jpg" alt="RB26dett" weight="80"height="80"></th>
+    <th><p align="left"> </p> <p align="right" >RB26dett  200,000 B.</p>
+      <p align="left"> แบบ :	6 สูบ DOHC 24 V.</p>
+      <p align="left">ขนาด	: 2568cc. </p>
+      <p align="left">ความกว้าง X ช่วงชัก :	86 X 73.7</p>
+      <p align="left">แรงม้า	: 360Hp/6800rpm</p>
+
+</th>
+<div align="right"><ion-button  (click)="gotoChat()"fill="outline" color="light">ติดต่อผู้ขาย</ion-button><br></div>
+<div align="right"><ion-button  (click)="gotoCen()"fill="outline" color="light">เปลี่ยนที่อยู่</ion-button><br></div>
+<div align="right"><ion-button  (click)="gotoCen()"fill="outline" color="light">ยกเลิกการสั่งซื้อ</ion-button><br></div>
+  </div>
+</ion-card>
+</ion-content>

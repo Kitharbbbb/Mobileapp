@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-row>
+        <ion-col size="3">
+          <input type="text" name="serch" size="small">
+          <ion-icon  (click)="gotoCart()"fill="clear" color="dark" name="cart-sharp"></ion-icon>
+          <ion-icon  (click)="gotoChat()" color="dark"name="chatbubbles-sharp"></ion-icon>
+        </ion-col>
+      </ion-row>
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div align="center">
+    <img  src="assets/images/profile.png"  alt="Steering wheel" width="100" height="100">
+      <p align="center">Dominic Toretto</p>
+  </div>
+  <ion-card class="1" (click)="gotoSetup()" name="setup" >
+    <div class="1">
+    <th align="left"><p class="1" align="left">ตั้งค่าบัญชี</p>
+    <th align="right"><ion-icon name="chevron-forward-outline"></ion-icon></th>
+    </div>
+  </ion-card>
+  <ion-card class="1" (click)="gotoH()"name="h">
+    <div class="1">
+    <th align="left"><p class="1" align="left">ศูนย์ช่วยเหลือ</p>
+    <th align="right"><ion-icon name="chevron-forward-outline"></ion-icon></th>
+    </div>
+  </ion-card>
+</ion-content>

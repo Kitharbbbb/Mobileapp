@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button class="1" slot="start" color="#F10E00">
+      <ion-back-button color="dark"fill="clear" ></ion-back-button>
+    </ion-button>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+  <ion-card class="1" (click)="gotoSecurity()" name="security" >
+    <div class="1">
+    <th align="left"><p class="1" align="left">ตั้งค่าความปลอดภัย</p>
+    <th align="right"><ion-icon name="chevron-forward-outline"></ion-icon></th>
+    </div>
+  </ion-card>
+  <ion-card class="1" (click)="gotoMyadd()"name="myadd">
+    <div class="1">
+    <th align="left"><p class="1" align="left">ที่อยู่ของฉัน</p>
+    <th align="right"><ion-icon name="chevron-forward-outline"></ion-icon></th>
+    </div>
+  </ion-card>
+</ion-content>
+<ion-content align="center">
+  <ion-button class="Bottom" (click)="gotoLogout()" name="logout" >ออกจากระบบ</ion-button>
+</ion-content>
+
